@@ -12,8 +12,16 @@ The second step is to select the most effective approaches to cover these.
 
 ## Functional testing
 
+
 ![](https://github.com/michaelgruczel/teststrategies-and-tools-for-java/raw/master/testpyramid.png "")
 
+In a perfect world you add them into one pipeline.
+
+![](https://github.com/michaelgruczel/teststrategies-and-tools-for-java/raw/master/perfect-pipeline.png "")
+
+The lack of testsystems and long running test times often force you to a pragmatic tradeoff.
+
+![](https://github.com/michaelgruczel/teststrategies-and-tools-for-java/raw/master/real-pipeline.png "")
 
 Important tools are:
 
