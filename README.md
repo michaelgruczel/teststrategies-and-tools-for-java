@@ -12,7 +12,8 @@ The second step is to select the most effective approaches to cover these.
 
 ## Functional testing
 
-TODO Testpyramid
+![](https://github.com/michaelgruczel/teststrategies-and-tools-for-java/raw/master/testpyramid.png "")
+
 
 Important tools are:
 
