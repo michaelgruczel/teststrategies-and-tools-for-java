@@ -1,12 +1,12 @@
 # teststrategies-and-tools-for-java
 
-> :warning: TOOD this tutorial is under development, don't use it at the moment
+> :warning: TODO this tutorial is under development, don't use it at the moment
 
 This repo is just a collection of best practices and tools with simple example snippets for the development of Java Applications.
 It starts with the Teststrategy since often discussion are fought about tools without understanding the 
 context and because more testing does not mean better testing.
 
-Before to select the right tools, I recomment to setup a strategy.
+Before selecting the "right" tools, I recomment to setup a strategy.
 A strategy starts with the risks and requirements.
 The second step is to select the most effective approaches to cover these.
 
@@ -19,11 +19,11 @@ In a perfect world you add them into one pipeline.
 
 ![](https://github.com/michaelgruczel/teststrategies-and-tools-for-java/raw/master/perfect-pipeline.png "")
 
-The lack of testsystems and long running test times often force you to a pragmatic tradeoff.
+The lack of testsystems and long running test times often forces you to a pragmatic tradeoff.
 
 ![](https://github.com/michaelgruczel/teststrategies-and-tools-for-java/raw/master/real-pipeline.png "")
 
-Important tools are:
+Some of the well known tools (in the java world) are:
 
 * Mockito
 * Spock
@@ -36,7 +36,7 @@ There are of course more tools.
 
 ## Non-functional tests
 
-Apart from the functional aspects, non-functional requirements should be taken into consideration:
+Apart from the functional aspects also non-functional requirements have to be taken into consideration:
 
 * Performance tests
 * Security tests
@@ -50,7 +50,7 @@ I will showcase two tools to executre perfomance tests
 * Gatling
 * Jmeter
 
-There are of course more tools.
+Also in this field there are of course more tools.
 
 ### Security tests
 
@@ -58,7 +58,7 @@ I will showcase
 
 * OWASP’s Zed Attack Proxy
 
-There are of course more tools.
+And there are of course more tools.
 
 ### Code quality checks
 
@@ -67,10 +67,10 @@ I will showcase one tool:
 * findbugs
 * sonar
 
-There are of course more tools.
+Again there are of course more tools.
 
 ### Failover tests
 
-Let us speak about some tools within the Simian Army (https://github.com/Netflix/SimianArmy)
+For Failover tests, let us concentrate on some tools from the Simian Army (https://github.com/Netflix/SimianArmy)
 
 There are of course more tools.
